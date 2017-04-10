@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homescreen"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gotcherguild.magicpantry.WelcomeActivity">
+
+    <Button
+        android:text="@string/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:width="180dp"
+        android:height="54dp"
+        android:background="@drawable/roundbutton"
+        tools:text="Log In"
+        tools:textSize="18dp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="false"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:text="@string/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:width="180dp"
+        android:height="53dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/roundbutton"
+        tools:text="Sign Up"
+        tools:textSize="18dp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
